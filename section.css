@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.ccc {
+  padding: 30px;
+  width: 360px;
+  height: 200px;
+}
+.overlay-img {
+  width: 300px;
+  height: 200px;
+  opacity: 0.4;
+}
+
+.features-container {
+  /* background: black; */
+}
+.card-img-overlay {
+  width: 400px;
+  height: 200px;
+}
+.overlay-text {
+  margin-top: 100px;
+}
+
+/* .blog-box {
+  width: 90%;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 3px 3px 3px #ddd;
+  margin-bottom: 30px;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  background-color: #00000061;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+.blog-box-s {
+  width: 45%;
+  background-color: white;
+  float: left;
+  margin-bottom: 40px;
+} */
