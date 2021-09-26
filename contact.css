@@ -1,0 +1,57 @@
+@import url("./header.css");
+@import url("./about.css");
+
+.parallex-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./an.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.parallex-3 h1 {
+  font-weight: 700;
+  font-family: "Gugi", sans-serif;
+}
+.parallex-3 h1 span {
+  color: var(--primary-color);
+  font-family: "Gugi", sans-serif;
+}
+.life-desc span {
+  color: var(--primary-color);
+}
+.form {
+  margin-top: 60px;
+}
+.form textarea:focus {
+  outline: none;
+}
+textarea {
+  border: none;
+}
+input {
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+
+.reg-btn {
+  width: 100%;
+  margin-top: 1rem;
+  border: none;
+  background-color: var(--primary);
+  color: white;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 10px;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s;
+}
+.reg-btn:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
